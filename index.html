@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/output.css">
+    <title>My Food</title>
+</head>
+<body>
+    <div class="mx-20 font-karma">
+
+    <nav id="navigation" class=" sm:fixed sm:w-full sm:bg-white w-full right-0 px-20" >
+        <ul class="sm:flex sm:justify-between sm:items-center sm:text-[23px] sm:py-4 w-full">
+            <li class="p-3 hover:bg-gray-400"><a href=""><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+            <li >My Food</li>
+            <li class="">Mail</li>
+        </ul>
+    </nav>
+       <div class="bg-black"></div>
+    <div id="food-images" class="sm:grid sm:grid-rows-8 sm:mx-auto md:grid-cols-4 md:grid-rows-2 gap-x-4 gap-y-4 w-full">
+        <div class="place-content-center">
+            <img src="./Images/sandwich.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">The Perfect Sandwich, A Real NYC Classic</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae. </p>
+        </div>
+        <div class="">
+             <img src="./Images/steak.jpg" alt="sandwich" class="h-fit">
+            <p class="text-center font-bold text-2xl h-fit py-2">Let Me Tell You About This Steak</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/cherries.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">Cherries, interrupted</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/wine.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">Once Again, Robust Wine and Vegetable Pasta</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/popsicle.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">All I Need Is a Popsicle</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/salmon.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">Salmon For Your Skin</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/sandwich.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">The Perfect Sandwich, A Real Classic</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+        <div class="image">
+             <img src="./Images/croissant.jpg" alt="sandwich">
+            <p class="text-center font-bold text-2xl h-fit py-2">Le French</p>
+            <p class="text-center h-fit py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse recusandae.</p>
+        </div>
+    </div>
+
+    <div id="number-slider" class="flex items-center justify-center mt-20 mb-10">
+        <p class="py-2 px-3 hover:bg-black hover:text-white hover:cursor-pointer"><i class="fa fa-angle-double-left" aria-hidden="true"></i></p>
+        <p id="slide" class="py-2 px-4 bg-black text-white hover:bg-gray-200 hover:text-black hover:cursor-pointer">1</p>
+        <p class="py-2 px-4 hover:bg-black hover:text-white hover:cursor-pointer">2</p>
+        <p class="py-2 px-4 hover:bg-black hover:text-white hover:cursor-pointer">3</p>
+        <p class="py-2 px-4 hover:bg-black hover:text-white hover:cursor-pointer">4</p>
+        <p class="py-2 px-3 hover:bg-black hover:text-white hover:cursor-pointer"><i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+    </div>
+
+    <hr class="horizontal">
+
+    <div id="the-chef" class="text-center mb-14 mt-6">
+        <p class="text-center font-bold text-2xl h-fit py-10">About Me, The Food Man</p>
+        <img src="./Images/chef.jpg" alt="chef" class="m-auto">
+        <h3 class="font-bold py-5 text-lg">I Am Who I Am!</h3>
+        <p class="italic">With Passion For Real, Good Food</p>
+        <p class="text-center h-fit py-2">Just me, myself and I, exploring the universe 
+            of unknownment. I have a heart of love and an interest 
+            of lorem ipsum and mauris neque quam blog. I want to 
+            share my world with you. Praesent tincidunt sed tellus 
+            ut rutrum. Sed vitae justo condimentum, porta lectus 
+            vitae, ultricies congue gravida diam non fringilla. 
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo 
+            condimentum, porta lectus vitae, ultricies congue gravida
+             diam non fringilla.
+        </p>
+    </div>
+
+    <hr class="horizontal">
+
+    <div id="footer" class="grid grid-cols-3 my-10">
+        <div class="" id="footer1">
+            <p class="font-bold text-2xl h-fit py-2">FOOTER</p>
+            <p class="py-3">Praesent tincidunt sed tellus ut rutrum. 
+                Sed vitae justo condimentum, porta lectus vitae, 
+                ultricies congue gravida diam non fringilla.</p>
+                <p id="credits">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
+        <div class="" id="blogs">
+            <p class="font-bold text-2xl h-fit">BLOG POSTS</p>
+            <div class="grid grid-cols-2 w-3/4 py-4 hover:bg-gray-200">
+                <div class="w-fit pl-4"><img src="./Images/workshop.jpg" alt="workshop" class="h-16 w-16"></div>
+                <div class="w-fit">
+                    <p class="h-fit w-fit text-lg">Lorem</p>
+                    <p class="h-fit w-fit">Sed mattis nunc</div>
+            </div>
+            <hr class="w-3/4">
+            <div class="grid grid-cols-2 w-3/4 py-4 hover:bg-gray-200">
+                <div class="w-fit pl-4"><img src="./Images/gondol.jpg" alt="gondol" class="h-16 w-16"></div>
+                <div class="w-fit">
+                    <p class="h-fit w-fit text-lg">Ipsum</p>
+                    <p class="h-fit w-fit">Praes tinci sed</div>
+            </div>
+        </div>
+        <div class="footer" id="tags">
+            <p class="font-bold text-2xl h-fit py-2">POPULAR TAGS</p>
+           <div id="all-tags" class="flex flex-wrap gap-2"> 
+            <p class="bg-black text-white text-xs px-2 py-1 flex items-center justify-center">Travel</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">New York</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Dinner</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Salmon</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">France</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Drinks</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Ideas</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Flavor</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Cuisine</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Chicken</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Dressing</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Fried</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Fish</p>
+            <p class="bg-gray-500 text-white text-xs px-2 py-1 flex items-center justify-center">Duck</p>
+            </div>
+        </div>
+    </div>
+
+
+</div> 
+</body>
+</html>
